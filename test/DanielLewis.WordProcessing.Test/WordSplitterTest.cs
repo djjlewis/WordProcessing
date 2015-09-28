@@ -28,7 +28,7 @@ namespace DanielLewis.WordProcessing.Test
         public void Should_Split_Words_Ignoring_Punctuation()
         {
             // Arrange
-            var text = ". , ( ) ! : ; ' ` ... ,,,, \n\n \r\n  ";
+            var text = ". , ( ) ! : ; ' ` ... ,,,, \n\n \r\n ? ";
             var wordSplitter = new WordSplitter();
 
             var expectedLength = 0;
