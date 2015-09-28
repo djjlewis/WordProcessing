@@ -45,7 +45,7 @@ namespace DanielLewis.WordProcessing.ConsoleApp
 
                 // Apply the step-two filter 
 
-                // we only need the unique words and the count, so map then
+                // we only need the unique words and the count, so map them
                 // using a linq Select() projection
                 var uniqueWords = countedWords.Select(s => s.Word).ToArray();
                 

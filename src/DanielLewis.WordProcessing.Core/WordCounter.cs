@@ -28,7 +28,7 @@ namespace DanielLewis.WordProcessing.Core
             try
             {
                 // this will hold the list of word counts result objects. It will always return
-                // even if empty, so no danger of null references sent to the valler
+                // even if empty, so no danger of null references sent to the caller
                 var countedWords = new List<WordCountResult>();
 
                 // this variable stores the last word to be processed so we don't process / sum it multiple times
