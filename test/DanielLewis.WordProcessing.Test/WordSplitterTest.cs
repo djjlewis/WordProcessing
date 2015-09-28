@@ -5,7 +5,7 @@ using DanielLewis.WordProcessing.Core;
 namespace DanielLewis.WordProcessing.Test
 {
     [TestClass]
-    public class WordAplitterTest
+    public class WordSplitterTest
     {
         [TestMethod]
         public void Should_Split_Words()

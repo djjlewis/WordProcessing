@@ -75,6 +75,7 @@ namespace DanielLewis.WordProcessing.ConsoleApp
 
             foreach (var item in countedWords)
             {
+                // A very specific fix (not general case), but words more than 8 chars need one less tab
                 if (item.Word.Length >= 8)
                 {
                     Console.WriteLine("{0}\t\t{1}", item.Word, item.Count);
