@@ -28,7 +28,7 @@ namespace DanielLewis.WordProcessing.ConsoleApp
                 }
 
                 // StreamReader.ReadToEnd is possibly more efficient, but this is only a small text file
-                var fileText = File.ReadAllText(_fileInputPath);
+                string fileText = File.ReadAllText(_fileInputPath);
 
                 // Split the words from the file into a new string array,
                 var wordSplitter = new WordSplitter();
@@ -47,11 +47,11 @@ namespace DanielLewis.WordProcessing.ConsoleApp
 
                 // we only need the unique words and the count, so map them
                 // using a linq Select() projection
-                var uniqueWords = countedWords.Select(s => s.Word).ToArray();
+                string[] uniqueWords = countedWords.Select(s => s.Word).ToArray();
                 
                 // Get a string of words that match the filter
                 var wordFilter = new WordFilter();
-                var filteredWords = wordFilter.FilterWords(uniqueWords);
+                string filteredWords = wordFilter.FilterWords(uniqueWords);
 
                 Console.WriteLine("Words matching the filter:");
                 Console.WriteLine(filteredWords);
