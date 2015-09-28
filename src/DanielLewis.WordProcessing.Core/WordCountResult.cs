@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace DanielLewis.WordProcessing.Core
 {
     /// <summary>
-    /// Class to store a Word and how many occurences are in the text
+    /// Class to store a Word and how many occurrences are in the text
     /// (Could have used a Dictionary<string, int> but sometimes explicit 
     /// classes are easier to work with, understand and more maintainable...
     /// </summary>
