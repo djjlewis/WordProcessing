@@ -25,7 +25,7 @@ namespace DanielLewis.WordProcessing.Test
         }
 
         [TestMethod]
-        public void Should_Split_Words_Ignoring_Puntuation()
+        public void Should_Split_Words_Ignoring_Punctuation()
         {
             // Arrange
             var text = ". , ( ) ! : ; ' ` ... ,,,, \n\n \r\n  ";
