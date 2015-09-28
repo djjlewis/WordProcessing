@@ -8,7 +8,7 @@ namespace DanielLewis.WordProcessing.Core
 {
     public class WordSplitter
     {
-        private static readonly string[] _punctuationChars = new string[] { ",", ".", "(", ")", ":", ";", "'", "!", "`" };
+        private static readonly string[] _punctuationChars = new string[] { ",", ".", "(", ")", ":", ";", "'", "!", "`", "?" };
         private static readonly string[] _wordBreakers = new string[] { " ", "\n", "\r\n" };
 
         /// <summary>

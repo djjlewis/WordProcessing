@@ -71,6 +71,7 @@ namespace DanielLewis.WordProcessing.ConsoleApp
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Word\t\t\tCount");
             Console.WriteLine("----\t\t\t-----");
+            Console.ForegroundColor = colour;
 
             foreach (var item in countedWords)
             {
